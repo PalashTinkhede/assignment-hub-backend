@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser()); 
 
 app.use(cors({
-  origin:true,
+  origin:'https://assignment-hub-frotend.vercel.app/',
   methods:[ "GET","POST","PUT","DELETE"],
   credentials:true
 }))
